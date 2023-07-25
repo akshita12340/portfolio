@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO |My Website</title>
+    <link rel="stylesheet" href="mains.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- arrow forward icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <style>
+  @import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Ubuntu&display=swap');
+   
+    /* .heading{
+      font-family: 'Baskervville', serif;
+    } */
+    .hero-section{
+      font-family: 'Ubuntu', sans-serif;
+
+    }
+   
+    html,body {
+  scroll-behavior: smooth  !important;
+}
+
+    
+
+    
+    </style>
+
+</head>
+<body>
+    <div id="wrapper" class="w-full">
+
+  <div class="container w-full max-w-full  bg-white  text-gray-400 pb-[2.2rem] flex flex-col ">
+
+     <!-- navbar -->
+    <div id="menu" class="navbar relative w-10/12   mx-auto flex flex-row  justify-between items-center transition-all duration-[0.7s]">
+  <div class="logo cursor-pointer flex items-center group">
+     <img src="./images/userAsset/nameLogo.png" width="50px" alt="A" class=" opacity-90 z-[2]">
+     <div class="nameLogo-text -ml-[0.5rem] text-[27px] text-black z-[3]">kshita'S</div>
+  </div>
+
+  <div class="nav-items flex flex-col justify-between gap-3 md:flex-row md:gap-12 xl:my-[46px] transition-all duration-[0.7s] ">
+      <div class="text-[20px] font-medium  hover:text-gray-300 transition-all duration-300"><a href="#projects">Projects</a></div>
+      <div class="text-[20px] font-medium  hover:text-gray-300 transition-all duration-300"><a href="#skills">Skills</a></div>
+      <!-- <div class="text-[20px] font-medium text-black hover:text-gray-300 transition-all duration-300"><a href="about.html" target="_blank">About Me</a></div> -->
+      <div class="text-[20px] font-medium  hover:text-gray-300 transition-all duration-300"><a href="#contactme">Contact Me</a></div>
+  </div>
+
+  
+      </div>
+    
+
+      <!-- Hero section -->
+     <div class="hero-section w-10/12  my-[4rem] pb-[3rem] pt-[1.8rem]  mx-auto  flex flex-row  items-center justify-between ">
+ <!-- left part -->
+ <div class="hero-section-left flex flex-col gap-[2rem] py-[20px]">
+     <h3 class=" text-[35px] md:text-[50px] text-black  font-extrabold font transition-all duration-[0.4s]">Hi!,  Akshita</h3>
+     <h2 class="text-[35px] md:text-[50px] text-black font-extrabold transition-all duration-[0.4s]">I am a <span class="role text-[#A31ACB] font-[800] text-[40px] md:text-[45px] leading-[45px]"></span></h2>
+     <p class="font-medium w-full lg:w-[70%] text-[19px] md:text-[22px] transition-all duration-[0.4s]">I'm a Web Developer and here is my Portfolio Website. Here you'll learn about me and my journey as a Web Developer.</p>
+     <!-- <div class="btn">Hire Me</div> -->
+    
+ </div>
+
+ <!-- right part -->
+ <div class="hero-section-right relative hidden lg:inline-block transition-all duration-[0.7s]">
+     <img src="./images/userAsset/dots-purple.png" alt="" class="absolute -bottom-[1rem] right-0 z-[9] dots">
+     <img src="./images/userAsset/circle-black.png" alt="" class="absolute left-0 bottom-0 z-[9] circle">
+     <img src="./images/userAsset/zigzags.png" alt="" class="absolute top-[1.5em] -left-[0.3em] z-[9] zigzags">
+     <img src="./images/userAsset/cube.png" alt="" class="absolute -top-[0.8em] right-[1em] z-[9] cube">
+     <img src="./images/userAsset/plus-purple.png" alt="" class="absolute -top-[0.8rem] left-[50%] z-[9] plus ">
+     <img src="./images/userAsset/Mee.jpeg" height="600px" width="560px" alt="" class=" -z-[9]  border-[2.8rem] border-white grayscale transition all duration-[1s] userImage">
+
+ </div>
+     </div>
+
+  </div>
+
+      <!-- project-section -->
+
+       <div id="projects" class="project-section pt-[4.5rem] pb-[4rem] bg-[#fafafa] ">
+        <h2 class=" text-[#A31ACB] text-[2.5rem] md:text-[3rem] font-semibold text-center" >PROJECTS</h2>
+        <div class="bg-black text-center w-[3rem] h-[5px] rounded-md m-auto"></div>
+        <div class="project-container max-w-[1200px] mx-auto py-[1.5rem] flex flex-col flex-wrap gap-[120px] mt-[4rem] ">
+          <!-- project section 1 -->
+          <div class="project-card relative w-[80%] lg:w-[90%] h-[460px] lg:h-[550px] bg-[url('./images/projects/tindog.png')] bg-cover bg-no-repeat mx-auto xl:mr-[120px] transition-all duration-[0.4s]">
+            <h1 class=" project-number absolute text-[150px] lg:text-[200px] font-semibold text-white z-[10] right-[-40px] top-[-90px] opacity-0 transition-all duration-[0.4s]">01</h1>
+            <div class="project-content absolute w-[70%] md:w-[50%] leading-8 flex flex-col gap-[1em] text-white p-[2em] z-[5] transition-all duration-[0.4s] bottom-[20%] md:left-[10%]">
+              <div class="project-skills-container mr-[40px] flex flex-row flex-wrap gap-[10px]">
+                            <img class="project-skill w-[28px] max-w-[40px] " src="./images/stack/HTML.png" alt="" />
+                            <img class="project-skill w-[28px] max-w-[40px]" src="./images/stack/CSS.png" alt="" />
+                            <img class="project-skill w-[28px] max-w-[40px] " src="./images/stack/Bootstrap.svg" alt="" />
+              </div>
+              <h2 class="text-[35px] md:text-[45px]  font-bold leading-[2.5rem]">Tindog</h2>
+              <h2 class="text-[25px] md:text-[30px]  font-bold leading-[2.5rem]">Tinder for Dogs (Only Frontend)</h2>
+              <!-- <p class="text-14px mr-[20px] italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quisquam nemo quaerat voluptatibus corrupti perspiciatis qui et, quasi magni! Illum!</p> -->
+              <div class="btn-group flex gap-[0.8rem] items-center">
+                <!-- <div class="btn">Read More</div> -->
+                <a href="https://github.com/akshita12340/Tindog.git" target="_blank">
+                  <i title="GitHubLink" class="fa-brands fa-github icon cursor-pointer white hover:text-[#A31ACB] transition-all duration[0.4s] text-[30px]"></i>
+                </a>
+                <a href="" target="_blank">
+                  <i title="Live Link" class="fa-solid fa-link icon cursor-pointer white hover:text-[#A31ACB] transition-all duration[0.4s] text-[30px]"></i>
+                </a>
+
+              </div>
+            </div>
+          </div>
+         <!-- project section 2 -->
+          <div class="project-card relative w-[80%] lg:w-[90%] h-[460px] lg:h-[550px] bg-[url('./images/projects/razorpay.png')] bg-cover bg-no-repeat mx-auto xl:ml-[120px]">
+            <h1 class=" project-number absolute text-[150px] lg:text-[200px] font-semibold text-white z-[10] left-[-40px] top-[-90px] opacity-0">02</h1>
+            <div class="project-content absolute w-[70%] md:w-[50%] leading-8 flex flex-col gap-[1em] text-white p-[2em] z-[5] transition-all duration-[0.4s] top-[20%] right-0">
+              <div class="project-skills-container mr-[40px] flex flex-row flex-wrap gap-[10px]">
+                            <img class="project-skill w-[28px] max-w-[40px] " src="./images/stack/HTML.png" alt="" />
+                            <img class="project-skill w-[28px] max-w-[40px]" src="./images/stack/CSS.png" alt="" />
+                            <img class="project-skill w-[28px] max-w-[40px]" src="./images/stack/Tailwind.png" alt="" />
+                            
+              </div>
+              <h2 class="text-[35px] md:text-[45px] font-bold leading-[2.5rem]">Razorpay Clone</h2>
+             
+              <div class="btn-group flex gap-[0.8rem] items-center">
+                <a href="https://github.com/akshita12340/My_Razorpay.git" target="_blank">
+                  <i title="GitHubLink" class="fa-brands fa-github icon cursor-pointer white hover:text-[#A31ACB] transition-all duration[0.4s] text-[30px]"></i>
+                </a>
+                <a href="" target="_blank">
+                  <i title="Live Link" class="fa-solid fa-link icon cursor-pointer white hover:text-[#A31ACB] transition-all duration[0.4s] text-[30px]"></i>
+                </a>
+
+              </div>
+            </div>
+          </div>
+          <!-- project section 3 -->
+           <div class="project-card relative w-[80%] lg:w-[90%] h-[460px] lg:h-[550px] bg-[url('./images/projects/password_generator.png')] bg-cover bg-no-repeat mx-auto xl:mr-[120px]">
+            <h1 class=" project-number absolute text-[150px] lg:text-[200px] font-semibold text-white z-[10] right-[-40px] top-[-90px] opacity-0">03</h1>
+            <div class="project-content absolute w-[70%] md:w-[50%] leading-8 flex flex-col gap-[1em] text-white p-[2em] z-[5] transition-all duration-[0.4s] bottom-[20%] left-[10%]">
+              <div class="project-skills-container mr-[40px] flex flex-row flex-wrap gap-[10px]">
+                            <img class="project-skill w-[28px] max-w-[40px] " src="./images/stack/HTML.png" alt="" />
+                            <img class="project-skill w-[28px] max-w-[40px]" src="./images/stack/CSS.png" alt="" />
+                            <img class="project-skill w-[28px] max-w-[40px]" src="./images/stack/Tailwind.png" alt="" />
+                            <img class="project-skill w-[28px] max-w-[40px]" src="./images/stack/Javascript.svg" alt="" />
+              </div>
+              <h2 class="text-[35px] md:text-[45px] font-bold leading-[2.5rem]">A Password Generator</h2>
+              <div class="btn-group flex gap-[0.8rem] items-center">
+                <a href="https://github.com/akshita12340/Password-Generator.git">
+                  <i title="GitHubLink" class="fa-brands fa-github icon cursor-pointer white hover:text-[#A31ACB] transition-all duration[0.4s] text-[30px]"></i>
+                </a>
+                <a href="">
+                  <i title="Live Link" class="fa-solid fa-link icon cursor-pointer white hover:text-[#A31ACB] transition-all duration[0.4s] text-[30px]"></i>
+                </a>
+
+              </div>
+            </div>
+          </div> 
+          <!-- project section 4  -->
+          <div class="project-card relative w-[80%] lg:w-[90%] h-[460px] lg:h-[550px] bg-[url('./images/projects/topCourses.png')] bg-cover bg-no-repeat mx-auto xl:ml-[120px]">
+            <h1 class=" project-number absolute text-[150px] lg:text-[200px] font-semibold text-white z-[10] left-[-40px] top-[-90px] opacity-0">04</h1>
+            <div class="project-content absolute w-[70%] md:w-[50%] leading-8 flex flex-col gap-[1em] text-white p-[2em] z-[5] transition-all duration-[0.4s] top-[20%] right-0">
+              <div class="project-skills-container mr-[40px] flex flex-row flex-wrap gap-[10px]">
+                            <img class="project-skill w-[28px] max-w-[40px] " src="./images/stack/HTML.png" alt="" />
+                            <img class="project-skill w-[28px] max-w-[40px]" src="./images/stack/CSS.png" alt="" />
+                            <img class="project-skill w-[28px] max-w-[40px]" src="./images/stack/Tailwind.png" alt="" />
+                            <img class="project-skill w-[28px] max-w-[40px]" src="./images/stack/React.png" alt="" />
+
+                            
+              </div>
+              <h2 class="text-[35px] md:text-[45px] font-bold leading-[2.5rem]">Top-Courses</h2>
+             
+              <div class="btn-group flex gap-[0.8rem] items-center">
+                <a href="https://github.com/akshita12340/top-courses-React" target="_blank">
+                  <i title="GitHubLink" class="fa-brands fa-github icon cursor-pointer white hover:text-[#A31ACB] transition-all duration[0.4s] text-[30px]"></i>
+                </a>
+                <a href="" target="_blank">
+                  <i title="Live Link" class="fa-solid fa-link icon cursor-pointer white hover:text-[#A31ACB] transition-all duration[0.4s] text-[30px]"></i>
+                </a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+
+      <!-- skills section -->
+      <div id="skills" class="skills-section pt-[1rem] pb-[1rem] w-full mt-[3rem] bg-[url('./images/userAsset/skills_bg.jpg')]  ">
+        <h2 class=" heading text-blacktext text-[2.5rem] md:text-[3rem] font-semibold text-center" >SKILLS</h2>
+        <div class="bg-[#A31ACB] text-center w-[3rem] h-[5px] rounded-md m-auto"></div>
+
+            <div class="skills-container relative bg-white max-w-[1200px] border-2 mx-auto rounded-lg p-[5rem]   mt-[4rem] flex items-center gap-[30px]">
+              <div class="skills-text w-full md:w-[50%] flex flex-col gap-[2rem]" >
+                <h1 class=" heading text-[45px] leading-[50px] font-extrabold text-black"><span class=" text-[80px] text-[#A31ACB]">M</span>e and <br> MyTech Stack</h1>
+                <div class="text-gray-500 leading-[1.6rem] text-[17px]  ">
+                  <p>I possess a strong set of web development skills that enable me to create captivating and user-friendly websites. Proficient in HTML5, CSS3, and JavaScript, I have a solid foundation in crafting well-structured web pages and implementing visually appealing designs. With expertise in responsive design, I ensure that websites are optimized for various screen sizes and devices. I am also experienced in utilizing CSS frameworks like Bootstrap and JavaScript libraries such as React to build interactive and dynamic web applications. wield a powerful combination of MongoDB, Node.js, and SQL skills that allow me to create dynamic and robust web applications. Additionally, my knowledge of version control systems like Git and my familiarity with debugging tools make me an efficient collaborator and problem solver. </p>
+                  <!-- <p>Overall, my tech skills encompass a comprehensive range of front-end and Back-end development tools and techniques.</p> -->
+                </div>
+            
+              </div>
+              <div class="skills-stack  w-[50%] hidden md:flex flex-wrap gap-[2rem] justify-center">
+                <img src="./images/userAsset/blob vector.png" class="blob-style z-[90]" alt="" />
+
+                <img src="./images/stack/HTML.png" alt="" class="skills-logo w-[70px] hover:scale-110 transition-all duration-[0.5s] z-[100] " />
+                <img src="./images/stack/CSS.png" alt="" class="skills-logo  w-[70px] hover:scale-110 transition-all duration-[0.5s] z-[100]  " />
+                <img src="./images/stack/Javascript.svg" alt="" class="skills-logo w-[70px] hover:scale-110 transition-all duration-[0.5s]  z-[100]" />
+                <img src="./images/stack/React.png" alt="" class="skills-logo  w-[70px] hover:scale-110 transition-all duration-[0.5s] z-[100]  " />
+                <img src="./images/stack/NodeJs.svg" alt="" class="skills-logo  w-[70px] hover:scale-110 transition-all duration-[0.5s]  z-[100] " />
+                <img src="./images/stack/Next.svg" alt="" class="skills-logo  w-[70px] hover:scale-110 transition-all duration-[0.5s] z-[100]  " />
+                <img src="./images/stack/Redux.svg" alt="" class="skills-logo  w-[70px] hover:scale-110 transition-all duration-[0.5s] z-[100]  " />
+                <img src="./images/stack/Tailwind.png" alt="" class="skills-logo  w-[70px] hover:scale-110 transition-all duration-[0.5s]  z-[100] " />
+                <img src="./images/stack/Bootstrap.svg" alt="" class="skills-logo  w-[70px] hover:scale-110 transition-all duration-[0.5s] z-[100]  " />
+                <img src="./images/stack/MaterialUI.svg" alt="" class="skills-logo  w-[70px] hover:scale-110 transition-all duration-[0.5s]  z-[100] " />
+                <img src="./images/stack/Express.png" alt="" class="skills-logo  w-[70px] hover:scale-110 transition-all duration-[0.5s] z-[100]  " />
+                <img src="./images/stack/Git.svg" alt="" class="skills-logo  w-[70px] hover:scale-110 transition-all duration-[0.5s]  z-[100] " />
+                <img src="./images/stack/Github.svg" alt="" class="skills-logo  w-[70px] hover:scale-110 transition-all duration-[0.5s]  z-[100] " />
+                <img src="./images/stack/Graphql.svg" alt="" class="skills-logo  w-[70px] hover:scale-110 transition-all duration-[0.5s]  z-[100] " />
+                <img src="./images/stack/MongoDB.svg" alt="" class="skills-logo  w-[70px] hover:scale-110 transition-all duration-[0.5s] z-[100]  " />
+                <img src="./images/stack/Vercel.svg" alt="" class="skills-logo  w-[70px] hover:scale-110 transition-all duration-[0.5s]  z-[100] " />
+                <img src="./images/stack/ChartJs.svg" alt="" class="skills-logo  w-[70px] hover:scale-110 transition-all duration-[0.5s] z-[100]  " />
+                <img src="./images/stack/Bash.svg" alt="" class="skills-logo  w-[70px] hover:scale-110 transition-all duration-[0.5s]  z-[100] " />
+                <img src="./images/stack/Docker.svg" alt="" class="skills-logo  w-[70px] hover:scale-110 transition-all duration-[0.5s]  z-[100] " />
+                <img src="./images/stack/K8s.svg" alt="" class="skills-logo  w-[70px] hover:scale-110 transition-all duration-[0.5s] z-[100] " />
+              </div>
+            </div>
+      </div> 
+
+
+           <!-- Get In touch / Contact section -->
+
+       
+          <div id="contactme" class="contact_me-container relative bg-white w-10/12 max-w-[1200px]  mx-auto py-[1.5rem] lg:py-[3rem] flex  flex-col md:flex-row  items-center gap-[30px] justify-between transition-all duration-[0.7s] mt-[7rem]">
+            <div class="contact-left basis-3/10 ">
+                <h1 class="heading text-[3rem] font-bold"><span class="text-[70px]"></span>Send me a Message!</h1>
+                <p class=" hidden md:block mt-[30px] cursor-pointer"><i class="fas fa-paper-plane text-[#A31ACB] mr-[15px] font-[25px] "></i> akshitasharma29042002@gmail.com</p>
+                <!-- <p class="mt-[30px] cursor-pointer"><i class="fas fa-phone-square-alt text-[#A31ACB] mr-[15px] font-[25px] "></i> 0123456789</p> -->
+                <div class="social-icons mt-[10px] md:mt-[30px] flex justify-center md:justify-start">
+                  <a href="" target="_blank" class="text-[30px] mr-[15px] text-[#ababab] inline-block hover:text-[#A31ACB] hover:-translate-y-1.5 duration-[0.4s]"><i class="fab fa-facebook"></i> </a>
+                  <a href="https://twitter.com/Akshita74751" target="_blank" class="text-[30px] mr-[15px] text-[#ababab] inline-block hover:text-[#A31ACB] hover:-translate-y-1.5 duration-[0.4s]" ><i class="fab fa-twitter-square"></i></a>
+                  <a href="https://www.instagram.com/sharmaakshita._/" target="_blank" class="text-[30px] mr-[15px] text-[#ababab] inline-block hover:text-[#A31ACB] hover:-translate-y-1.5 duration-[0.4s]" ><i class="fab fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/akshitasharma29/" target="_blank" class="text-[30px] mr-[15px] text-[#ababab] inline-block hover:text-[#A31ACB] hover:-translate-y-1.5 duration-[0.4s]" ><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/myCV.pdf" download class=" hidden md:inline-block bg-[#A31ACB] text-white mt-[25px] p-[10px] px-5 rounded-md hover:bg-[#9328b4] text-[18px]"> Download CV</a>
+            </div>
+            <div class="contact-right basis-3/5 text-center w-full">
+                <form action="" class=" space-y-8" name="submit-to-google-sheet">
+                  <input type="text" name="Name" placeholder="Your Name" required class="w-[100%] border-0 outline-none bg-[#262626] p-[15px] my-[15px] text-[#fff] text-[18px] rounded-md">
+                  <input type="email" name="Email" placeholder="Your Email" required class="w-[100%] block border-0 outline-none bg-[#262626] p-[15px] my-[15px] text-[#fff] text-[18px] rounded-md">
+                  <textarea name="Message" rows="10" placeholder="Your Message" class="w-[100%] block border-0 outline-none bg-[#262626] p-[15px] my-[15px] text-[#fff] text-[18px] rounded-md" ></textarea>
+                  <button type="submit" class=" bg-[#A31ACB] text-white w-full block mt-[25px] p-[10px] px-16 rounded-md hover:bg-[#9328b4] text-[18px]">Send</button>
+                </form> 
+                <span id="msg" class="text-[#ababab] mt-[-10px] "></span> 
+            </div>
+          </div>
+        
+
+      <!-- footer -->
+
+      <div class="footer bg-black text-white p-[2rem] mt-[9rem] ">
+      <div class="footer-up flex flex-row gap-[25px] pb-[2.75rem] border-b-[#444] border-b-[1px]">
+
+        <div class=" footer-left w-[60%] flex flex-wrap items-start gap-[2rem]  ">
+            <img src="./images/userAsset/MeGreenMirrored.jpeg" alt="" height="100px" width="100px"> 
+             <p class="w-[70%] text-[15px] md:text-[18px] text-gray-400 transition-all duration-[0.4s]">
+              I'm a final-year B.Tech student in Computer Science at the College of Technology and Engineering, Udaipur with a passion for tech. 
+              
+              Beyond the realms of technology, I'm an avid explorer of diverse interests, and I often find solace in the world of books and music. As a curious soul, I thrive on learning and growing every day, ready to face the adventures that lie ahead.
+              
+              <!-- I'm a student in Computer Science and Engineering at College of Technology and Engineering,Udaipur and a Web Developer.I call myself an explorer and love to get new experiences. -->
+            </p>
+        </div>
+             
+        
+        <div class="footer-right w-[40%] flex flex-row justify-between">
+           <div class="social-media hidden sm:flex flex-col gap-[30px]">
+            <div>
+              <a href="https://www.linkedin.com/in/akshitasharma29/" target="_blank"><img src="./images/userAsset/lin.png" alt="" width="40px" height="40px" class="cursor-pointer"></a> 
+              <a href="https://www.linkedin.com/in/akshitasharma29/" target="_blank" ><h3 class="text-bold text-white text-[17px] md:text-[20px] transition-all duration-[0.4s]">LINKEDIN</h3></a>
+            </div>
+            <div>
+              <a href="https://github.com/akshita12340" target="_blank"><img src="./images/userAsset/githb.png" alt="" width="40px" class="cursor-pointer"></a> 
+              <a href="https://github.com/akshita12340" target="_blank" ><h3 class="text-bold text-white text-[17px] md:text-[20px] transition-all duration-[0.4s] ">GITHUB</h3></a>
+            </div>
+            <div>
+              <a href="https://twitter.com/Akshita74751" target="_blank"><img src="./images/userAsset/twtr.png" alt="" width="40px" class="cursor-pointer"></a> 
+              <a href="https://twitter.com/Akshita74751"  ><h3 class="text-bold text-white text-[17px] md:text-[20px] transition-all duration-[0.4s]">TWITTER</h3></a>
+            </div>
+            <div>
+              <a href="https://www.instagram.com/sharmaakshita._/" target="_blank"><img src="./images/userAsset/insta.png" alt="" width="40px" class="cursor-pointer"></a> 
+              <a href="https://www.instagram.com/sharmaakshita._/" target="_blank" ><h3 class="text-bold text-white text-[17px] md:text-[20px] transition-all duration-[0.4s]">INSTAGRAM</h3></a>
+            </div>
+            <div>
+              <a href="mailto: akshitasharma29042002@gmail.com" target="_blank"><img src="./images/userAsset/eml.png" alt="" width="40px" class="cursor-pointer"></a> 
+              <a href="mailto: akshitasharma29042002@gmail.com" target="_blank" ><h3 class="text-bold text-white text-[17px] md:text-[20px] transition-all duration-[0.4s]">EMAIL</h3></a>
+            </div>
+           </div>
+           <div class="nav-links flex flex-col gap-[30px]">
+            <div>
+              <a href="#projects"><h3 class="text-bold text-white text-[17px] md:text-[20px] underline transition-all duration-[0.4s]">PROJECTS</h3></a>
+              <div class="bg-[#A31ACB] h-[1px] w-[50px]"></div>
+              <p class="text-gray-400 text-[15px] md:text-[18px] transition-all duration-[0.4s]">View previous works</p>
+            </div>
+            <div>
+              <a href="#skills"><h3 class="text-bold text-white text-[17px] md:text-[20px] underline transition-all duration-[0.4s]">SKILLS</h3></a>
+              <div class="bg-[#A31ACB] h-[1px] w-[50px]"></div>
+              <p class="text-gray-400 text-[15px] md:text-[18px] transition-all duration-[0.4s]">Learn about skills</p>
+            </div>
+            <div>
+              <a href="#"><h3 class="text-bold text-white text-[17px] md:text-[20px] underline transition-all duration-[0.4s]">ABOUT ME</h3></a>
+              <div class="bg-[#A31ACB] h-[1px] w-[50px]"></div>
+              <p class="text-gray-400 text-[15px] md:text-[18px] transition-all duration-[0.4s]">Learn about Akshita's interests and hobbies</p>
+            </div>
+            <div>
+              <a href="#contactme"><h3 class="text-bold  text-white text-[17px] md:text-[20px] underline transition-all duration-[0.4s]">CONTACT ME</h3></a>
+              <div class="bg-[#A31ACB] h-[1px] w-[50px]"></div>
+              <p class="text-gray-400 text-[15px] md:text-[18px] transition-all duration-[0.4s]">Send a general message</p>
+            </div>
+            <div class="flex flex-row justify-between sm:hidden">
+              <a href="https://www.linkedin.com/in/akshitasharma29/" target="_blank"><img src="./images/userAsset/lin.png" alt="" width="20px" class="cursor-pointer"></a> 
+              <a href="https://github.com/akshita12340" target="_blank"><img src="./images/userAsset/githb.png" alt="" width="20px" class="cursor-pointer"></a> 
+              <a href="https://twitter.com/Akshita74751" target="_blank"><img src="./images/userAsset/twtr.png" alt="" width="20px" class="cursor-pointer"></a> 
+              <a href="https://www.instagram.com/sharmaakshita._/" target="_blank"><img src="./images/userAsset/insta.png" alt="" width="20px" class="cursor-pointer"></a> 
+              <a href="mailto: akshitasharma29042002@gmail.com" target="_blank"><img src="./images/userAsset/eml.png" alt="" width="20px" class="cursor-pointer"></a> 
+            </div>
+           </div>
+
+        </div>
+      </div>
+      <!-- <div class="bg-white text-center w-[99%] h-0.5 rounded-md m-auto mt-[30px]"></div> -->
+
+      <div class="copyright w-full text-center pt-[2rem] text-gray-400">
+        <span class="text-gray-400 mt-[3rem]">Copyright ©</span> 2023. Made by <span class="underline"><a href="#">Akshita Sharma</a></span> 
+      </div>
+
+
+    </div>
+
+
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+   
+
+
+</body>
+</html>
